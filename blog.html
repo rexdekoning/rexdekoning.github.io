@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - AzureKing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <div class="nav-container">
+                <h1 class="logo">AzureKing</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-hero">
+            <div class="blog-header">
+                <h2>Azure Insights & Best Practices</h2>
+                <p>Exploring Microsoft Azure through practical examples and expert guidance</p>
+            </div>
+        </section>
+
+        <section class="blog-content">
+            <div class="content-container">
+                <article id="azure-fundamentals" class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">December 26, 2025</span>
+                        <span class="post-category">Fundamentals</span>
+                    </div>
+                    <h2>Getting Started with Azure Fundamentals</h2>
+                    <p>
+                        Microsoft Azure is one of the leading cloud platforms, offering a vast array of services 
+                        for computing, storage, networking, and more. Understanding the fundamentals is crucial 
+                        for anyone looking to build or migrate applications to the cloud.
+                    </p>
+                    <h3>Core Azure Services</h3>
+                    <p>
+                        Azure provides several core services that form the foundation of most cloud solutions:
+                    </p>
+                    <ul>
+                        <li><strong>Azure Virtual Machines:</strong> Scalable computing resources on-demand</li>
+                        <li><strong>Azure App Service:</strong> Fully managed platform for building web apps and APIs</li>
+                        <li><strong>Azure Storage:</strong> Highly available, secure, and scalable cloud storage</li>
+                        <li><strong>Azure SQL Database:</strong> Managed relational database service</li>
+                        <li><strong>Azure Active Directory:</strong> Identity and access management</li>
+                    </ul>
+                    <h3>Getting Started</h3>
+                    <p>
+                        The best way to learn Azure is hands-on. Start with a free Azure account, which gives you 
+                        $200 credit for the first 30 days and access to many services that are always free. Begin 
+                        with simple projects like deploying a web app or setting up a virtual machine, and gradually 
+                        explore more advanced services.
+                    </p>
+                </article>
+
+                <article id="cloud-architecture" class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">December 26, 2025</span>
+                        <span class="post-category">Architecture</span>
+                    </div>
+                    <h2>Best Practices for Azure Cloud Architecture</h2>
+                    <p>
+                        Designing cloud solutions requires a different mindset than traditional on-premises 
+                        architecture. Here are key principles for building robust Azure solutions.
+                    </p>
+                    <h3>Design Principles</h3>
+                    <ul>
+                        <li><strong>Scalability:</strong> Design for growth using auto-scaling and load balancing</li>
+                        <li><strong>High Availability:</strong> Leverage Azure's availability zones and geo-redundancy</li>
+                        <li><strong>Security First:</strong> Implement defense in depth with network security groups, 
+                            encryption, and Azure Security Center</li>
+                        <li><strong>Cost Optimization:</strong> Use Azure Cost Management and right-sizing recommendations</li>
+                        <li><strong>Monitoring:</strong> Implement comprehensive logging with Azure Monitor and 
+                            Application Insights</li>
+                    </ul>
+                    <h3>Well-Architected Framework</h3>
+                    <p>
+                        Microsoft's Azure Well-Architected Framework provides five pillars for excellent architecture:
+                        Cost Optimization, Operational Excellence, Performance Efficiency, Reliability, and Security. 
+                        Following these principles ensures your Azure solutions are production-ready and maintainable.
+                    </p>
+                </article>
+
+                <article id="devops-azure" class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">December 26, 2025</span>
+                        <span class="post-category">DevOps</span>
+                    </div>
+                    <h2>Implementing DevOps Practices with Azure</h2>
+                    <p>
+                        Azure DevOps and GitHub Actions provide powerful tools for implementing continuous integration 
+                        and continuous deployment (CI/CD) pipelines. Modern software development requires automation 
+                        to deliver quality code quickly and reliably.
+                    </p>
+                    <h3>Azure DevOps Services</h3>
+                    <p>
+                        Azure DevOps offers a complete suite of development tools:
+                    </p>
+                    <ul>
+                        <li><strong>Azure Repos:</strong> Git repositories for source control</li>
+                        <li><strong>Azure Pipelines:</strong> CI/CD pipelines for any platform</li>
+                        <li><strong>Azure Boards:</strong> Agile project management tools</li>
+                        <li><strong>Azure Artifacts:</strong> Package management for dependencies</li>
+                        <li><strong>Azure Test Plans:</strong> Manual and exploratory testing tools</li>
+                    </ul>
+                    <h3>Infrastructure as Code</h3>
+                    <p>
+                        Managing infrastructure as code is essential for modern DevOps. Azure Resource Manager (ARM) 
+                        templates, Bicep, and Terraform allow you to define your infrastructure declaratively, 
+                        ensuring consistency across environments and enabling version control for your infrastructure.
+                    </p>
+                    <h3>Automation Best Practices</h3>
+                    <p>
+                        Successful DevOps implementation requires automated testing at every stage, from unit tests 
+                        to integration and performance testing. Use Azure Pipelines to automate builds, run tests, 
+                        and deploy to multiple environments. Implement blue-green deployments or canary releases to 
+                        minimize risk when deploying new versions.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rex de Koning - AzureKing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
